@@ -1,3 +1,20 @@
 echo "# Programa-git" > README.mdREADME.md
 git add README.mdgit add README.md
 git commit -m "Inicializando el repositorio con README"
+
+cd Programa-git
+git init
+
+git remote add origin https://github.com/tu_usuario/Programa-git.git
+git remote -v
+
+echo "# Programa-git" > README.md
+git add README.md
+git commit -m "Inicializando el repositorio con README"
+git push -u origin master
+
+kotlin.txt
+echo "Correo: tuemail@example.com" >> kotlin.txt
+git add kotlin.txt
+git commit -m "Añadido datos."
+git push origin master
